@@ -1,0 +1,5 @@
+# Treat all .sqlite files as SQL
+*.sqlite linguist-language=SQL
+
+# Ensure .sql files are detectable by Linguist
+*.sql    linguist-detectable=true
