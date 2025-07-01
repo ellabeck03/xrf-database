@@ -24,7 +24,7 @@ jobs:
           pip install pytest
           pip install pandas
           pip install pdfplumber
-          pip install pdfminer
+          pip install pdfminer.six
   
       - name: run tests
         run: pytest -v
